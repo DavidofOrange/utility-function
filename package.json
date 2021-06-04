@@ -1,0 +1,19 @@
+{
+  "name": "utility-function",
+  "version": "1.0.0",
+  "description": "gottaGetThatMoneyYall",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "husky": "^6.0.0",
+    "mocha": "^8.4.0",
+    "pinst": "^2.1.6",
+    "prettier": "^2.3.0"
+  }
+}
