@@ -1,12 +1,13 @@
 const { expect } = require("chai");
-const { gottaGetThatMoney } = require("./index.js");
+const { chai } = require("chai");
+const { gottaGetThatMoney } = require("../index.js");
 
 describe("gottaGetThatMoney", function() {
-  it("Should throw an error if amount is not a number", () => {
+  it("Should return a string if NaN", () => {
     const stringTest = gottaGetThatMoney("Give me money");
-    const booleanTest = gottaGetThatMoney(true);
-    expect(stringTest).to.throw();
-    expect(booleanTest).to.throw();
+    const booleanTest = gottaGetThatMoney("ten");
+    expect(stringTest).to.equal("Sorry, not a number");
+    expect(booleanTest).to.equal("Sorry, not a number");
   });
 
     it("gottaGetThatMoney Should return a string", () => {

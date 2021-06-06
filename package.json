@@ -4,8 +4,7 @@
   "description": "gottaGetThatMoneyYall",
   "main": "index.js",
   "scripts": {
-    "start": "npm run",
-    "test": "mocha"
+    "test": "mocha './test/indexTest.js'"
   },
   "author": "",
   "license": "ISC",
